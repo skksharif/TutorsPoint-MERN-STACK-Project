@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+}
+a{
+  color: black !important;
+}
+.nav-wrapper{
+  top: 0 !important;
+  position: sticky !important;
+}
+#card{
+  margin-top: 80px !important;
+}
+.mycard{
+  margin-top: 80px ;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.form-logo{
+  font-family: 'Grand Hotel', cursive;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+  margin-bottom: 10px;
+}
+.profile{
+  max-width: 550px ;
+  margin: auto;
+}
+.profile h6{
+  padding: 5px;
+}
+.profile #pp{
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.home-card{
+  max-width: 800px;
+  height: max-content;
+  margin: 15px auto;
+}
+
+.home{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 20px 0;
+   margin-top: 60px;
+}
+.home .tutor{
+    max-width: 750px;
+    height: 700px;
+    border-radius: 72% 28% 70% 30% / 36% 72% 28% 64%;
+    background:linear-gradient(to left,rgba(0, 0, 0,0.75),rgba(0, 0,0, 0.75)),url("../public/images/tutor.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    box-shadow: 1px 5px 10px 0 grey;
+}
+.home  .para{
+    width:80%;
+    color: white;
+    margin-left: 10%;
+}
+.home .para h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.home .para p{
+    font-size: 19px;
+}
+
+.home .student{
+    max-width: 700px;
+    height: 700px;
+    border-radius: 21% 79% 35% 65% / 77% 27% 73% 23%  ;
+    background:linear-gradient(to left,rgba(0, 0, 0,0.75),rgba(0, 0,0, 0.75)),url("../public/images/student.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    box-shadow: 1px 5px 10px 0 grey;
+}
+.card-text{
+  max-width: 300px;
+  padding: 15px;
+}
+@media screen and (max-width:768px) {
+  #card{
+    margin-top: 180px !important;
+  }
+  .mycard{
+    margin-top: 180px ;
+  }
+    .home{
+        padding:  0;
+        margin-top: 180px;
+    }
+    .home .tutor{
+        padding-bottom: 10px;
+        border-radius: 70% 30% 30% 70% ;
+        height: 450px;
+    }
+    .home  .para{
+        width:80%;
+        color: white;
+        margin-left: none;
+    }
+    .home .para h1{
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .home .para p{
+        font-size: 16px;
+    }
+    .home .student{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 30% 70% 70% 30%  ;
+        height: 450px;
+    }
+    .card-text{
+      max-width: 300px;
+      padding: 0;
+    }
+}
+
